@@ -1,0 +1,83 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+.container-left{
+    background-color: #F8F9FA;
+    padding: 2em;
+    position: relative;
+    width: 30%;
+    border-radius: 1em;
+}
+.container-left h3{
+    text-align: center;
+}
+.container-right p{
+    text-align: center !important;
+}
+.btn{
+    background-color: #F8F9FA;
+    border: 1px solid black !important;
+    text-align: center !important;
+    border-radius: 0.4em;
+    height: 45px;
+    width: 60px;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+.btn-4{
+    flex-grow: 4;
+}
+.btn-1{
+    flex-grow: 1;
+}
+.btn-2{
+    flex-grow: 2;
+}
+.btnWar{
+    background-color: #E0A800;
+}
+.btnSuc{
+    background-color: #218838;
+}
+.btnSec{
+    background-color: #5A6268;
+    color: white;
+}
+.btnDan{
+    background-color: #C82333;
+    color: white;
+}    
+.btn--outline-secondary{
+    background-color: white;
+    border: 1px solid #5A6268 ;
+}  
+.btn--outline-secondary:hover{
+    background-color: #5A6268;
+} 
+
+.screen{
+    border: 2px solid black;
+    padding: 5px ;
+}
+
+.input,.result{
+    background-color: white;
+    border: 1px solid white;
+    height: 2em ;
+    text-align: end;
+}
+.cont{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+.btn{
+    border: 1px solid;
+}
+.row-calc{
+    display: flex;
+    justify-content: space-between;
+}

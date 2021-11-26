@@ -1,0 +1,59 @@
+<div class="container">
+  <div class="container-left">
+    <h3 class="">Ralie's Calculator</h3>
+    <div class="screen">
+      <!--Displays the User Input-->
+      <div class="cont">
+          <div class="input" type="text">{{input}}</div>
+      </div>
+      <!-- Displays the Results --> 
+      <div class="cont">
+          <div class="result" type="text">{{result}}</div>
+      </div>
+      <div class="cont">
+        <div class="result" type="text">{{error}}</div>
+      </div>
+    </div>
+    
+    <br/>
+    <div class="row-calc">
+      <button class="btn btn-4 btnWar " type="button" (click)="toutEffacer()">AC</button>
+      <button class="btn btn-2 btnSuc " type="button" (click)="effacer()">DEL</button>
+      <button class="btn btn-1 btnSec " type="button" (click)="appuyerOp('%')">%</button>
+    </div>
+    <div class="row-calc">
+      
+      <button class="btn btn-1 btnSec " type="button" (click)="appuyerOp('**')">^</button>
+      <button class="btn btn-1 btnSec " type="button" (click)="appuyerNum('(')">(</button>
+      
+      <button class="btn btn-1 btnSec " type="button" (click)="appuyerNum(')')">)</button>
+      <button class="btn btn-1 btnSec " type="button" (click)="appuyerOp('/')">÷</button>
+    </div>
+    <div class="row-calc">
+      <button class="btn btn-1 " type="button" (click)="appuyerNum('7')">7</button>
+      <button class="btn btn-1 " type="button" (click)="appuyerNum('8')">8</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('9')">9</button>
+      <button class="btn btn-1 btnSec" type="button" (click)="appuyerOp('*')">×</button>
+    </div>
+    <div class="row-calc">
+      <button class="btn btn-1 " type="button" (click)="appuyerNum('4')">4</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('5')">5</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('6')">6</button>
+      <button class="btn btn-1 btnSec" type="button" (click)="appuyerOp('-')">-</button>
+    </div>
+    <div class="row-calc">
+      <button class="btn btn-1" type="button" (click)="appuyerNum('1')">1</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('2')">2</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('3')">3</button>
+      <button class="btn btn-1 btnSec" type="button" (click)="appuyerOp('+')">+</button>
+    </div>
+    <div class="row-calc">
+      <button class="btn btn-1" type="button" (click)="appuyerNum('.')">.</button>
+      <button class="btn btn-1" type="button" (click)="appuyerNum('0')">0</button>
+      <button class="btn btn-4 btnDan" type="button" (click)="getReponse()">=</button>
+    </div>
+
+  </div>
+
+
+</div>
