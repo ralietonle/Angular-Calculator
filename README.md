@@ -1,27 +1,15 @@
 # Calculator
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h4> Build the project </h4>
+<ul>
+    <li>git clone https://github.com/ralietonle/Angular-calculator.git</li>
+    <li><b>npm install</b> to install dependencies </li>
+    <li><b>ng serve</b> to build and serve the app at localhost:4200 </li>
+</ul>
+<h4>... or run the demo </h4>
+<ul>
+    <li>Copy the calculator directory under dist directory</li>
+    <li>Paste it to the sites directory of a server. Eg: In MAMP, paste it to htdocs.</li>
+    <li>Run the app. Eg: In MAMP, go to localhost:8888/calculator </li>
+</ul>
+<h4> Demo </h4>
+<img src="./src/calcDemo.png"/>
