@@ -12,4 +12,4 @@
     <li>Run the app. Eg: In MAMP, go to localhost:8888/calculator </li>
 </ul>
 <h4> Demo </h4>
-<img src="./src/calcDemo.png"/>
+<img src="./src/calcDemo.png" width="400px" height="408px"/>
